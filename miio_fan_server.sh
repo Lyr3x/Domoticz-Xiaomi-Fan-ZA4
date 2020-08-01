@@ -16,7 +16,7 @@ SCRIPTNAME=/etc/init.d/miio_fan_server
 PIDFILE=/var/run/miio_fan_server.pid
 
 DAEMON_USER=root
-DAEMON=/home/pi/domoticz/plugins/xiaomi-fanza4/miio_fan_server.py
+DAEMON=/home/domoticz/domoticz/plugins/xiaomi-fanza4/miio_fan_server.py
 DAEMON_ARGS="192.168.x.xx xxxxxxxxxxxxxxxxxxxx"
 DAEMON_ARGS="$DAEMON_ARGS --host 127.0.0.1 --port 22223"
 

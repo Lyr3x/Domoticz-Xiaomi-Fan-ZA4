@@ -200,7 +200,7 @@ class BasePlugin:
             Domoticz.Debug("Still connecting to MIIOServer %s:%s" % (self.subHost, self.subPort))
 
         elif self.tcpConn.Connected():
-            self.apiRequest('status')
+            # self.apiRequest('status')
             self.heartBeatCnt += 1
 
 
